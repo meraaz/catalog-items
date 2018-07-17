@@ -1,4 +1,4 @@
-## News Log Analysis System
+## Catalog Items Project
 
 ### Overview
 
