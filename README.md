@@ -17,6 +17,7 @@
 * Clone or Download the configuration file from [FSND-VM](https://github.com/udacity/fullstack-nanodegree-vm) repository
 * Launch the Vagrant VM ( `vagrant up` )
 * go to `/vagrant/catalog` within the VM
+* Install the requirements with `sudo pip3 install -r requirements.txt`
 * Run the application with `python3 application.py`
 * Open your browser on [http://localhost:8000](http://localhost:8000)
 
