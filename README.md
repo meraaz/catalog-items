@@ -33,4 +33,4 @@
 > If you face any issue with running the project on this port ,
 please stop the process working on this port and try to run again
 
-You can use `fuser -k 8080/tcp` to kill process working on port 8000
+You can use `fuser -k 8000/tcp` to kill process working on port 8000
