@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Udacity - Category Items Project" content="">
+    <meta name="Mera Karam" content="">
+
+    <title>Udacity - Category Items Project</title>
+
+    <script src="//apis.google.com/js/platform.js?onload=start"> </script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{url_for('static', filename='shop-item.css')}}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+	{% include "/layout/header.html" %}
+      <!-- Page Content -->
+		<div class="container">
+			{% block content %}
+			{% endblock %}
+		</div>
+      <!-- /.container -->
+
+	{% include "/layout/footer.html" %}
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{url_for('static', filename='jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+
+  </body>
+
+</html>
